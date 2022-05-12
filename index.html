@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="App/app.js" defer></script>
+    <title>Tomato Timer</title>
+</head>
+<header>
+    <div id="nav-bar-1">
+        <img class="logo" src="assets/tomato_b.png"><span class="title">pomodoro timer</span>
+    </div>
+    <div id="nav-bar-2">
+        <span id="greeting">hello, world</span>
+    </div>
+</header>
+<body>
+
+    <div class="parent">
+
+
+        <div class="child-1">
+            <ul class="menu-list">
+                <li id="list-el-1">your last sessions</li>
+                <li id="list-el-2">how it works</li>
+            </ul>
+            <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0kmjQyCdibSE5MNnPh7fhQ?utm_source=generator&theme=0" width="230px" height="80" 
+                frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        </div>
+
+
+        <div class="child-2">
+            <img class="tomato-girl" src="assets/tomato-girl.gif">
+            <div class="timer-container">
+                <h1 id="timer">
+                    00:25:00
+                </h1>
+                <button class="timer-btn" id="timer-btn-start">START</button>
+                <div class="break-btns">
+                    <button class="timer-btn" id="timer-btn-5">5 MIN BREAK</button>
+                    <button class="timer-btn" id="timer-btn-15">20 MIN BREAK</button>
+                </div>
+                <div class="date">
+                    <p id="date">Day, Month 30th, 2022</p>
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <div class="child-3">
+            <h3 class="notes">N O T E S</h3>
+            <textarea class="notes-box" autofocus></textarea>
+        </div>
+        
+    </div>
+    
+    <footer class="footer-content">
+        pomodoro timer - made by <a href="https://github.com/thnardg">thnardg</a> for CS50x - <span id="currentYear">2022</span>
+    </footer>   
+</body>
+<script id="instructions" type="text/html">
+    <div class="instructionsBox">
+        <h3 class="howItWorks">how the pomodoro technique works:</h3><br>
+        the <span class="bold"><a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">pomodoro technique</a></span> is a time management method developed by francesco cirillo in the late 1980s.<br>
+        it uses a timer to break work into intervals, separated by short breaks. each interval is known as a <span class="bold">pomodoro</span>.<br>
+        <ol>
+            <li>start the pomodoro timer (25 minutes).</li>
+            <li>work on the task you planned.</li>
+            <li>when the timer finishes, take a short break (5 minutes) by clicking the <span class="bold">"5 min break"</span> button.</li>
+            <li>repeat until you've completed 3 pomodoros.</li>
+            <li>after completing the fourth pomodoro, take a long break (20 minutes) by clicking the <span class="bold">"20 min break"</span> button.</li>
+        </ol>
+    </div>
+</script>
+</html>
