@@ -123,7 +123,7 @@ function countTimer() {
     document.getElementById("timer").innerHTML = hour + ":" + minutes + ":" + seconds;
 
     // Add last session to log and play beeping sound when the timer finishes.
-    if (seconds >= timer + 1) {
+    if (minutes >= timer + 1) {
         sessions.push(" " + "<br>" + timer + ":" + "00");
         playSound();
         if (timer > 24) {
