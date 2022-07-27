@@ -1,4 +1,4 @@
-# TOMATO TIMER
+# POMODORO TIMER
 
 #### Video Demo: https://youtu.be/GZ7LpkV3_bk
 
