@@ -25,7 +25,7 @@ It uses a timer to break work into intervals, separated by short breaks. Each in
 - Notes Section
 - Spotify integration
 - Local Session Logs
-- Fully mobile and desktop friendly
+- Responsive design
 
 
 ## Author
